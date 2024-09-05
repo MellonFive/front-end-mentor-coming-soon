@@ -1,3 +1,54 @@
 body {
     font-family: "Josefin Sans", sans-serif;
 }
+
+main {
+    background-image: url(../images/bg-pattern-desktop.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    /* display: grid;
+    grid-template-columns: repeat(2, 1fr); */
+    display: flex;
+    justify-content: space-between;
+    gap: 20rem;
+    max-width: 1440px;
+    margin: auto;
+}
+
+.container .coming-soon {
+    display: grid;
+    grid-template-rows: 200px;
+}
+
+.container .coming-soon .logo {
+    width: 20rem;
+}
+
+.container .coming-soon .content {
+    width: 50rem;
+}
+
+.container .coming-soon .content .title {
+    font-size: 10rem;
+    text-transform: uppercase;
+    letter-spacing: 2rem;
+    color: var(--Dark-Grayish-Red);
+}
+
+.container .coming-soon .content .title .emphasis {
+    font-weight: 200;
+    color: var(--Desaturated-Red);
+}
+
+.container .coming-soon .content .description {
+    margin-top: 2rem;
+    font-size: 1.8rem;
+    color: var(--Soft-Red);
+    letter-spacing: .2rem;
+}
