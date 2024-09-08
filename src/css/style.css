@@ -29,7 +29,7 @@ main {
 }
 
 .container .coming-soon .content {
-    width: 50rem;
+    width: 100%;
 }
 
 .container .coming-soon .content .title {
