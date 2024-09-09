@@ -47,6 +47,6 @@ main {
 .container .coming-soon .content .description {
     margin-top: 2rem;
     font-size: 1.8rem;
-    color: var(--Soft-Red);
+    color: var(--Desaturated-Red);
     letter-spacing: .2rem;
 }
