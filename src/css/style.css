@@ -15,6 +15,7 @@ main {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 20rem;
+    width: 100%;
     max-width: 1440px;
     margin: auto;
 }
@@ -22,10 +23,11 @@ main {
 .container .coming-soon {
     display: grid;
     grid-template-rows: 200px;
+    padding: 1.5rem;
 }
 
 .container .coming-soon .logo {
-    width: 20rem;
+    width: 25rem;
 }
 
 .container .coming-soon .content {
@@ -35,7 +37,7 @@ main {
 .container .coming-soon .content .title {
     font-size: 10rem;
     text-transform: uppercase;
-    letter-spacing: 2rem;
+    letter-spacing: 3rem;
     color: var(--Dark-Grayish-Red);
 }
 
