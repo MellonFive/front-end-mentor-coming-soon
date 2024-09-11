@@ -14,16 +14,14 @@ main {
 .container {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: 20rem;
     width: 100%;
-    max-width: 1440px;
+    max-width: 700px;
     margin: auto;
 }
 
 .container .coming-soon {
     display: grid;
-    grid-template-rows: 200px;
-    padding: 1.5rem;
+    grid-template-rows: 250px;
 }
 
 .container .coming-soon .logo {
@@ -61,4 +59,9 @@ main {
     font-size: 1.8rem;
     border: 1px solid var(--Desaturated-Red);
     font-family: "Josefin Sans", sans-serif;
+}
+
+.container .section-woman {
+    background-image: url(../images/hero-desktop.jpg);
+    background-size: cover;
 }
