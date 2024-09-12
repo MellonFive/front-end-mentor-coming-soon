@@ -8,14 +8,14 @@ main {
     background-size: cover;
     display: flex;
     align-items: center;
-    height: 100vh;
+    min-height: 100vh;
 }
 
 .container {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    width: 100%;
-    max-width: 700px;
+    width: 40%;
+    max-width: 1440px;
     margin: auto;
 }
 
@@ -61,7 +61,8 @@ main {
     font-family: "Josefin Sans", sans-serif;
 }
 
-.container .section-woman {
+main .img-woman {
     background-image: url(../images/hero-desktop.jpg);
-    background-size: cover;
+    background-size: contain; 
+    height: 100vh;
 }
