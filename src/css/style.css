@@ -64,6 +64,5 @@ main {
 
 main .img-woman {
     background-image: url(../images/hero-desktop.jpg);
-    background-size: contain; 
     height: 100vh;
 }
